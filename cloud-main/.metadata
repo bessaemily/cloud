@@ -1,0 +1,31 @@
+# Este arquivo registra informações usadas pelas ferramentas do Flutter.
+# Mantenha-o no controle de versão para que as ferramentas reconheçam o projeto.
+
+version:
+  revision: "6655482ec06e547f90abf8ae7590466f4415978d"
+  channel: "stable"
+
+project_type: app
+
+# Registra informações usadas pelo comando de migração do Flutter.
+migration:
+  platforms:
+    - platform: root
+      create_revision: 6655482ec06e547f90abf8ae7590466f4415978d
+      base_revision: 6655482ec06e547f90abf8ae7590466f4415978d
+    - platform: android
+      create_revision: 6655482ec06e547f90abf8ae7590466f4415978d
+      base_revision: 6655482ec06e547f90abf8ae7590466f4415978d
+    - platform: web
+      create_revision: 6655482ec06e547f90abf8ae7590466f4415978d
+      base_revision: 6655482ec06e547f90abf8ae7590466f4415978d
+    - platform: windows
+      create_revision: 6655482ec06e547f90abf8ae7590466f4415978d
+      base_revision: 6655482ec06e547f90abf8ae7590466f4415978d
+
+  # Seção de arquivos mantidos manualmente.
+
+  # Caminhos locais que a ferramenta de migração deve ignorar.
+  unmanaged_files:
+    - 'lib/main.dart'
+    - 'ios/Runner.xcodeproj/project.pbxproj'
